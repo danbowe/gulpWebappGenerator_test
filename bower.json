@@ -1,0 +1,15 @@
+{
+  "name": "gulpwebappgenerator",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2",
+    "bitters": "~1.1.0"
+  },
+  "devDependencies": {
+    "chai": "~3.3.0",
+    "mocha": "~2.3.3"
+  }
+}

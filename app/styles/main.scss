@@ -1,0 +1,44 @@
+// bower:scss
+// endbower
+
+// Bourbon Neat import
+@import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+// Biiters imports (uncomment as needed)
+@import '../../bower_components/bitters/app/assets/stylesheets/base';
+@import '../../bower_components/bitters/app/assets/stylesheets/buttons';
+@import '../../bower_components/bitters/app/assets/stylesheets/forms';
+@import '../../bower_components/bitters/app/assets/stylesheets/grid-settings';
+@import '../../bower_components/bitters/app/assets/stylesheets/lists';
+@import '../../bower_components/bitters/app/assets/stylesheets/tables';
+@import '../../bower_components/bitters/app/assets/stylesheets/typography';
+@import '../../bower_components/bitters/app/assets/stylesheets/variables';
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
