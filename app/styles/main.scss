@@ -1,5 +1,10 @@
 // bower:scss
+@import "bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "bower_components/neat/app/assets/stylesheets/_neat.scss";
 // endbower
+
+// Normalize CSS reset CDN
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css';
 
 // Bourbon Neat import
 @import '../../bower_components/bourbon/app/assets/stylesheets/bourbon';
@@ -14,25 +19,37 @@
 @import '../../bower_components/bitters/app/assets/stylesheets/typography';
 @import '../../bower_components/bitters/app/assets/stylesheets/variables';
 
+// Variables
+
+$powder-blue: #e1f2f7;
+$dark-blue: #063340;
+
+// Styles
+
 body {
   background: #fafafa;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
+  color: $dark-blue;
+  text-align: center;
 }
 
 .hero-unit {
   margin: 50px auto 0 auto;
-  width: 300px;
+  width: 75%;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #eee;
+  background-color: $powder-blue;
   border-radius: 6px;
   padding: 60px;
   h1 {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+  }
+  li {
+    display: inline;
+    margin: 0 rem(10);
   }
 }
 
